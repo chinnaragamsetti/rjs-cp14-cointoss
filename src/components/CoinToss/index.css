@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.maincontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: to right(#f9d423, #e2a139);
+}
+
+.subcontainer {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #ffffff;
+}
+.heading {
+  font-size: 30px;
+  color: #a35200;
+}
+.para {
+  font-size: 15px;
+}
+.image {
+  width: 100px;
+  height: auto;
+}
+
+.button {
+  border-radius: 5px;
+  background-color: #f9d423;
+  color: #e2a139;
+}
+.scoreconatiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.scorebox {
+  font-size: 10px;
+  color: #334155;
+}
