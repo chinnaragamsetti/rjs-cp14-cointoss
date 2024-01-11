@@ -63,7 +63,7 @@ class CoinToss extends Component {
           <h1 className="heading">Coin Toss Game</h1>
           <p className="para">Heads (or) Tails</p>
           <img src={image} alt="toss result" className="image" />
-          <button className="button" onClick={this.onChange}>
+          <button type="button" className="button" onClick={this.onChange}>
             Toss Coin
           </button>
           <div className="scorecontainer">
