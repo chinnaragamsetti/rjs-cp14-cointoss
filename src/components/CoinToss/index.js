@@ -31,32 +31,9 @@ class CoinToss extends Component {
     }
   }
 
-  /*
-  onChange = () => {
-    // const {toss} = this.state
-    const tossResult = Math.floor(Math.random() * 2)
-
-    if (tossResult === 0) {
-      this.setState(prevState => ({
-        image: 'https://assets.ccbp.in/frontend/react-js/heads-img.png',
-        total: prevState.total + 1,
-        heads: prevState.heads + 1,
-        tails: prevState.tails,
-      }))
-    } else {
-      this.setState(prevState => ({
-        image: 'https://assets.ccbp.in/frontend/react-js/tails-img.png',
-        total: prevState.total + 1,
-        heads: prevState.heads,
-        tails: prevState.tails + 1,
-      }))
-    }
-  }
-*/
-
   render() {
     const {image, total, heads, tails} = this.state
-    // const toss=this.tosschanges()
+
     return (
       <div className="maincontainer">
         <div className="subcontainer">

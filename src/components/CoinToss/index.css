@@ -3,16 +3,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: to right(#f9d423, #e2a139);
+  height: 100vh;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
 }
 
 .subcontainer {
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 10px;
+  padding: 50px;
   background-color: #ffffff;
 }
 .heading {
@@ -25,17 +27,23 @@
 .image {
   width: 100px;
   height: auto;
+  margin-bottom: 10px;
 }
 
 .button {
   border-radius: 5px;
   background-color: #f9d423;
   color: #e2a139;
+  border: 0px;
+  padding: 5px;
+  font-size: 10px;
 }
-.scoreconatiner {
+.scorecontainer {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 .scorebox {
   font-size: 10px;
